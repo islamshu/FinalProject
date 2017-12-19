@@ -6,7 +6,7 @@
 package TestsMVC;
 
 import Controler.controlerAdd;
-import Management_Model.Add_pro;
+import Product_Model.Add_pro;
 import User_Interface_View.Add_Screen;
 
 /**

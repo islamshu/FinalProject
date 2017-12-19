@@ -7,7 +7,7 @@ package Controler;
 
 import Employees_Model.Emp_Facade;
 import Employees_Model.Check;
-import Management_Model.Search_pro;
+import Product_Model.Search_pro;
 import User_Interface_View.Login;
 import User_Interface_View.Project_FinalMain;
 import User_Interface_View.Search_Screen;

@@ -9,7 +9,7 @@ import Controler.controlerSingUp;
 import Controler.controlerUpdate;
 import Employees_Model.A_Employee;
 import Employees_Model.Emp_Facade;
-import Management_Model.Update_pro;
+import Product_Model.Update_pro;
 import User_Interface_View.SingUp;
 import User_Interface_View.Update_Screen;
 

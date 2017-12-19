@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Management_Model;
+package Product_Model;
 
 import DB.DBconnectionProduct;
 import java.sql.Connection;
@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  *
  * @author Mahran
  */
-public class Delete_pro implements Operation {
+public class Add_pro implements Operation {
 
     Connection con;
     PreparedStatement pst;
@@ -26,22 +26,27 @@ public class Delete_pro implements Operation {
     Statement st;
 
     @Override
-    public void  Operation(String id) {
+    public void Operation(String id, String name, String price) {
         try {
-            String q = "DELETE FROM project_final_product WHERE ID_pro="+id;
+            String q = "insert into project_final_product(ID_pro ,Name_pro ,Price_pro) VALUES (?,?,?)";
             con = DBconnectionProduct.getInstance();
             pst = con.prepareStatement(q);
-            pst.executeUpdate();
-             System.out.println("yes delete");
+            pst.setString(1, id);
+            pst.setString(2, name);
+            pst.setString(3, price);
+            System.out.println("yes add");
+            pst.execute();
         } catch (SQLException ex) {
-            Logger.getLogger(Delete_pro.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Add_pro.class.getName()).log(Level.SEVERE, null, ex);
         }
-    
+
     }
 
     @Override
-    public void Operation(String id, String name, String price) {
-     
+    public void Operation(String id) {
+        
     }
+
+   
 
 }

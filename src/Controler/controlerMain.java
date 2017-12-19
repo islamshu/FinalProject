@@ -6,12 +6,12 @@
 package Controler;
 
 import Employees_Model.Check;
-import Management_Model.Add_pro;
-import Management_Model.Delete_pro;
-import Management_Model.Operation;
-import Management_Model.Operation_Factory;
-import Management_Model.Search_pro;
-import Management_Model.Update_pro;
+import Product_Model.Add_pro;
+import Product_Model.Delete_pro;
+import Product_Model.Operation;
+import Product_Model.Operation_Factory;
+import Product_Model.Search_pro;
+import Product_Model.Update_pro;
 import TestsMVC.TestADD;
 import User_Interface_View.Add_Screen;
 import User_Interface_View.Delete_Screen;

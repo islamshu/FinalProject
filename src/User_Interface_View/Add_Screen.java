@@ -6,9 +6,9 @@
 package User_Interface_View;
 
 import Controler.controlerAdd;
-import Management_Model.Add_pro;
-import Management_Model.Operation_Factory;
-import Management_Model.Operation;
+import Product_Model.Add_pro;
+import Product_Model.Operation_Factory;
+import Product_Model.Operation;
 import java.awt.Desktop;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;

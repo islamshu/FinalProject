@@ -5,8 +5,8 @@
  */
 package User_Interface_View;
 
-import Management_Model.Operation_Factory;
-import Management_Model.Operation;
+import Product_Model.Operation_Factory;
+import Product_Model.Operation;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;

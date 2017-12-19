@@ -7,9 +7,9 @@ package TestsMVC;
 
 import Controler.controlerDelete;
 import Controler.controlerSearch;
-import Management_Model.Add_pro;
-import Management_Model.Delete_pro;
-import Management_Model.Search_pro;
+import Product_Model.Add_pro;
+import Product_Model.Delete_pro;
+import Product_Model.Search_pro;
 import User_Interface_View.Delete_Screen;
 import User_Interface_View.Search_Screen;
 import java.sql.SQLException;

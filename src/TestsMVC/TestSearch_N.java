@@ -6,7 +6,7 @@
 package TestsMVC;
 
 import Controler.controlerSearch;
-import Management_Model.Search_pro;
+import Product_Model.Search_pro;
 import User_Interface_View.Search_Screen;
 import java.sql.SQLException;
 

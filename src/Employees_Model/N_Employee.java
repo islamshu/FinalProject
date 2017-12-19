@@ -8,7 +8,7 @@ package Employees_Model;
 import Employees_Model.Employee;
 import DB.DBconnectionProduct;
 import Employees_Model.Employee;
-import Management_Model.Add_pro;
+import Product_Model.Add_pro;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

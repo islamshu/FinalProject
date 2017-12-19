@@ -7,8 +7,8 @@ package TestsMVC;
 
 import Controler.controlerAdd;
 import Controler.controlerDelete;
-import Management_Model.Add_pro;
-import Management_Model.Delete_pro;
+import Product_Model.Add_pro;
+import Product_Model.Delete_pro;
 import User_Interface_View.Add_Screen;
 import User_Interface_View.Delete_Screen;
 

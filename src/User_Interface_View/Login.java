@@ -6,7 +6,7 @@
 package User_Interface_View;
 
 import DB.DBconnectionProduct;
-import Management_Model.Add_pro;
+import Product_Model.Add_pro;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

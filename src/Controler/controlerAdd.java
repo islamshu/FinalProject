@@ -5,9 +5,9 @@
  */
 package Controler;
 
-import Management_Model.Add_pro;
-import Management_Model.Operation;
-import Management_Model.Operation_Factory;
+import Product_Model.Add_pro;
+import Product_Model.Operation;
+import Product_Model.Operation_Factory;
 import User_Interface_View.Add_Screen;
 import User_Interface_View.Project_FinalMain;
 import java.awt.event.ActionEvent;

@@ -6,9 +6,9 @@
 package Controler;
 
 
-import Management_Model.Operation;
-import Management_Model.Operation_Factory;
-import Management_Model.Search_pro;
+import Product_Model.Operation;
+import Product_Model.Operation_Factory;
+import Product_Model.Search_pro;
 
 import User_Interface_View.Delete_Screen;
 import User_Interface_View.Project_FinalMain;

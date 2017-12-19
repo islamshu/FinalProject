@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Management_Model;
+package Product_Model;
 
 import DB.DBconnectionProduct;
 import java.sql.Connection;

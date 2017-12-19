@@ -5,7 +5,7 @@
  */
 package User_Interface_View;
 
-import Management_Model.Search_pro;
+import Product_Model.Search_pro;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 import java.util.logging.Level;
